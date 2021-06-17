@@ -62,7 +62,6 @@ body {
     position: relative;
     width: 200px;
     height: 200px;
-    background-color: #f0f0f0; /** temporary */
 }
 
 .needle {
@@ -74,6 +73,7 @@ body {
     width: 3px;
     /* Faz a rotação a partir da base */
     transform-origin: bottom center;
+    transition: all 0.5s ease-in;
 }
 
 .needle.hour {
