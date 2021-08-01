@@ -46,6 +46,7 @@ body {
 }
 
 .card {
+    width: 100%;
     max-width: 800px;
     background-color: #4c2885;
     border-radius: 20px;
@@ -54,6 +55,11 @@ body {
     display: flex;
     padding: 3rem;
     margin: 0 1.5rem;
+}
+
+.card h1 {
+    width: 100%;
+    text-align: center;
 }
 
 .avatar {
@@ -81,13 +87,14 @@ body {
 }
 
 .user-info ul li {
+    margin: 0px 10px;
     display: flex;
     align-items: center;
 }
 
-user-info ul li strong {
+.user-info ul li strong {
     font-size: 0.9rem;
-    margin-left: 0.5rem;
+    margin-left: 0.3rem;
 }
 
 .repo {
